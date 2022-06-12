@@ -1,8 +1,8 @@
 public abstract class Car {
 
-    headLight headlight;
-     RearViewMirror rearViewMirror;
-    public Car (headLight headlight,RearViewMirror rearViewMirror) {
+     static Headlight headlight;
+      static RearViewMirror rearViewMirror;
+    public Car (Headlight headlight,RearViewMirror rearViewMirror) {
         this.headlight = headlight;
         this.rearViewMirror = rearViewMirror;
     }

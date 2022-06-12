@@ -1,12 +1,14 @@
 import java.awt.*;
 
-public class BMW extends Car{
+public class BMW extends Car {
 
-    public static rearViewMirror mirror;
-    public static headlight lamp;
+
+    public static RearViewMirror  mirror;
+
+    public static Headlight lamp;
 
     public BMW(Headlight headlight, RearViewMirror rearViewMirror) {
-        super(headlight,rearViewMirror);
+        super(headlight, rearViewMirror);
 
     }
 }
