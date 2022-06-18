@@ -1,6 +1,8 @@
+package LIGHTS;
+
 public class Lamp implements Headlight {
     @Override
-    public String givelight() {
+    public String giveLight() {
         return "highBeam";
     }
 }
